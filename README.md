@@ -12,6 +12,7 @@ For technical details about the drone and algo, go through the [ppt](https://doc
 1. launch           - information for simulataneous activtion of different nodes during rosrun  
 2. models           - models for setting the required environment in gazebo  
 3. src              - source codes  
+4. world            - virtual environment with gates to perform simulation
 4. CMakeLists.txt   - index building of python codes as ros packages  
 5. depth_net.ipynb  - python notebook for depth map generation from camera feed  
 6. package.xml      - catkin build-up for ros packages and their dependencies
