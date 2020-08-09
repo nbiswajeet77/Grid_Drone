@@ -1,0 +1,178 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="default">
+    <!-- A global light source -->
+    <static>true</static>
+      <include>
+      <uri>model://sun</uri>
+    </include>
+	
+	<static>true</static>
+      <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    
+    <!--<model name="drone">
+      <static>true</static>
+      <include>
+        <uri>model://drone</uri>
+        <pose>0 0 0 0 0 0</pose>
+     </include>
+    </model>-->
+    
+    <model name="grid_gate1">
+      <static>true</static>
+      <include>
+        <uri>model://grid_gate</uri>
+        <pose>2 5 0 0 0 0</pose>
+        <!--  x y z r p y -->
+     </include>
+    </model>
+    
+    <model name="grid_gate2">
+      <static>true</static>
+      <include>
+        <uri>model://grid_gate</uri>
+        <pose> 0.28571429 6 0 0 0</pose>
+        <!--  x y z r p y -->
+     </include>
+    </model>
+    
+    <model name="grid_gate3">
+      <static>true</static>
+      <include>
+        <uri>model://grid_gate</uri>
+        <pose>0.85714286 7 0 0 0 0</pose>
+        <!--  x y z r p y -->
+     </include>
+    </model>
+    
+    <model name="grid_gate4">
+      <static>true</static>
+      <include>
+        <uri>model://grid_gate</uri>
+        <pose>-1.42857143 8 0 0 0 0</pose>
+        <!--  x y z r p y -->
+     </include>
+    </model>
+    
+    <model name="grid_gate5">
+      <static>true</static>
+      <include>
+        <uri>model://grid_gate</uri>
+        <pose>-1.14285714 9 0 0 0 0</pose>
+        <!--  x y z r p y -->
+     </include>
+    </model>
+    
+    <model name="grid_gate6">
+      <static>true</static>
+      <include>
+        <uri>model://grid_gate</uri>
+        <pose>-2 10 0 0 0 0</pose>
+        <!--  x y z r p y -->
+     </include>
+    </model>
+    
+    <model name="grid_gate7">
+      <static>true</static>
+      <include>
+        <uri>model://grid_gate</uri>
+        <pose>-0.57142857 11 0 0 0 0</pose>
+        <!--  x y z r p y -->
+     </include>
+    </model>
+    
+    <model name="grid_gate8">
+      <static>true</static>
+      <include>
+        <uri>model://grid_gate</uri>
+        <pose>-0.85714286 12 0 0 0 0</pose>
+        <!--  x y z r p y -->
+     </include>
+    </model>
+    
+    <model name="grid_gate9">
+      <static>true</static>
+      <include>
+        <uri>model://grid_gate</uri>
+        <pose>1.71428571 13 0 0 0 0</pose>
+        <!--  x y z r p y -->
+     </include>
+    </model>
+    
+    <model name="grid_gate10">
+      <static>true</static>
+      <include>
+        <uri>model://grid_gate</uri>
+        <pose>-1.71428571 14 0 0 0 0</pose>
+        <!--  x y z r p y -->
+     </include>
+    </model>
+    
+    <model name="grid_gate11">
+      <static>true</static>
+      <include>
+        <uri>model://grid_gate</uri>
+        <pose>0 15 0 0 0 0</pose>
+        <!--  x y z r p y -->
+     </include>
+    </model>
+    
+    <model name="grid_gate12">
+      <static>true</static>
+      <include>
+        <uri>model://grid_gate</uri>
+        <pose>1.42857143 16 0 0 0 0</pose>
+        <!--  x y z r p y -->
+     </include>
+    </model>
+    
+    <model name="grid_gate13">
+      <static>true</static>
+      <include>
+        <uri>model://grid_gate</uri>
+        <pose>-0.28571429 17 0 0 0 0</pose>
+        <!--  x y z r p y -->
+     </include>
+    </model>
+    
+    <model name="grid_gate14">
+      <static>true</static>
+      <include>
+        <uri>model://grid_gate</uri>
+        <pose>0.57142857 18 0 0 0 0</pose>
+        <!--  x y z r p y -->
+     </include>
+    </model>
+    
+    <model name="grid_gate15">
+      <static>true</static>
+      <include>
+        <uri>model://grid_gate</uri>
+        <pose>1.14285714 19 0 0 0 0</pose>
+        <!--  x y z r p y -->
+     </include>
+    </model>
+    
+    <model name="left_wall">
+	  <static>true</static>
+      <include>
+		<uri>model://wall</uri>
+		<static>true</static>
+		<pose>-3 10 3 0 0 0</pose>
+	  </include>
+	</model>
+	
+	 <model name="right_wall">
+	  <static>true</static>
+      <include>
+		<uri>model://wall</uri>
+		<static>true</static>
+		<pose>3 10 3 0 0 0</pose>
+	  </include>
+	</model>
+	
+    </world>
+</sdf>
+

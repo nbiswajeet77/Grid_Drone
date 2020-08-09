@@ -1,0 +1,7 @@
+<launch>  
+  <node name="pose_action_new" pkg="drone" type="pose_action.py"/>
+  <node name="depth_map2" pkg="drone" type="depth_map_2.py"/>
+  <node name="drone2" pkg="drone" type="drone.py"/>
+   
+</launch>
+

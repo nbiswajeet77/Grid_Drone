@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sdf version='1.6'>
+  <model name='grid_gate'>
+    <link name='base_link'>
+      <pose frame=''>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0.441032 2.004 0 -0 0</pose>
+        <mass>20.0782</mass>
+        <inertia>
+          <ixx>65.934</ixx>
+          <ixy>-6.33656e-15</ixy>
+          <ixz>6.20072e-15</ixz>
+          <iyy>54.2153</iyy>
+          <iyz>17.7457</iyz>
+          <izz>15.827</izz>
+        </inertia>
+      </inertial>
+      <collision name='base_link_collision'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://grid_gate/meshes/base_link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__frame_collision_1'>
+        <pose frame=''>0 0 2.95 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://grid_gate/meshes/frame.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='base_link_visual'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://grid_gate/meshes/base_link.STL</uri>
+          </mesh>
+        </geometry>
+        
+        <material>
+          <ambient>0.1 0.1 0.1 1</ambient>
+          <diffuse>0.1 0.1 0.2 1</diffuse>
+          <specular>0 0 0 0</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+        
+      </visual>
+      <visual name='base_link_fixed_joint_lump__frame_visual_1'>
+        <pose frame=''>0 0 2.95 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://grid_gate/meshes/frame.STL</uri>
+          </mesh>
+        </geometry>
+        
+        <material>
+          <ambient>1 0 0 1</ambient>
+          <diffuse>1 0 0 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <emissive>0 0 0 0</emissive>
+        </material>
+        
+      </visual>
+    </link>
+  </model>
+</sdf>
