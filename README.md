@@ -9,9 +9,9 @@ Our idea:-\n
 For technical details about the drone and algo, go through the [ppt](https://docs.google.com/presentation/d/1HJ_9uEvnynEv9PBw9aLZy6A6BK5sTCB6qvG3i1VdksU/edit?usp=sharing).
 
 **Repository contents:-**
--launch - information for simulataneous activtion of different nodes during rosrun
--models - models for setting the required environment in gazebo
--src - source codes
--CMakeLists.txt - index building of python codes as ros packages
--depth_net.ipynb - python notebook for depth map generation from camera feed
--package.xml - catkin build-up for ros packages and their dependencies
+*launch - information for simulataneous activtion of different nodes during rosrun
+*models - models for setting the required environment in gazebo
+*src - source codes
+*CMakeLists.txt - index building of python codes as ros packages
+*depth_net.ipynb - python notebook for depth map generation from camera feed
+*package.xml - catkin build-up for ros packages and their dependencies
