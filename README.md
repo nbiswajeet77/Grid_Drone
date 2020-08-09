@@ -1,7 +1,7 @@
 # Flipkart Grid 2.0 Robotics Challenge
 ## Autonomous Indoor Drone : Team - **The NITRiders**
 
-Our idea:-
+Our idea:-\n
     Taking up the drone initially to a height of 3.5m to the level of the gates and then we performed depth estimation through the camera feed with a neural network model followed by lens formula and the use of similarity rule to get the absolute depth. Using this depth value and image processing techniques, edges and centers of nearest gates were detected. Since we get multiple points of centers, a probabilistic center is used to get the mean and median values in order to fic the center position and then defining the drones trajectory towards it. During its movement the information about incoming gate is pushed into a queue-like strusture and that of the one already passed thorugh is poped out. Everytime a gate is crossed the counter value is incremented by one. At last when the counter value is equal to the total number of gates in the arena and no further gates is visible from the camera, drone is set for landing.
 
 [Simulation video link](https://drive.google.com/file/d/1_5pFgy062_ziBSoxh3qL18n-d43Pne-J/view?usp=sharing)
