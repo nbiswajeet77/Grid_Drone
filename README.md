@@ -1,3 +1,3 @@
-## Flipkart Grid 2.0 Robotics Challenge
-# Autonomous Indore Drone
+# Flipkart Grid 2.0 Robotics Challenge
+## Autonomous Indoor Drone : Team - *The NITRiders*
 
